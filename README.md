@@ -17,6 +17,9 @@ To run Car-Talogue locally on your machine, follow these steps:
 3. Open the `index.html` file in your preferred web browser.
 4. You can run it on your live server or localhost .
 
+
+##Live link 
+https://lonestar-19.github.io/PHASE-ONE-project/
 ## Usage
 
 1. Enter keywords such as brand, model, fuel consumption, or adaptability to surroundings in the search bar.
