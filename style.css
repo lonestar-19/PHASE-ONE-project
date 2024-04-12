@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpaperaccess.com/full/33135.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-image: none;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+   text-align: center;
+   font-size: medium;
+   font-style: normal;
+   color: black;
+    margin:20px;
+    font-family: cursive;
+}
+
+main {
+    padding: 20px;
+}
+
+.car-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:black;
+    opacity: 0.9;
+}
+
+.car-info h2 {
+    color: #333;
+}
+
+footer {
+    background-color: rgba(221, 186, 186, 0.5);
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

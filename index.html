@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car-Talogue</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Car-Talogue</h1>
+    </header>
+    <main>
+        <section class="car-info">
+            <div class="card mb-4 content"> 
+                <div class="card-body">
+                    <h2 class="card-title">Desired Details </h2>
+                    <form id="carSearchForm">
+                        <input type="text" id="carNameInput" class="form-control mb-2" placeholder="Enter car name..." list="carNames">
+                        <datalist id="carNames">
+                            <option value="Toyota">
+                            <option value="Mercedez">
+                            <option value="Mazda">
+                            <!-- Add more options as needed -->
+                        </datalist>
+                    
+                        <input type="text" id="carModelInput" class="form-control mb-2" placeholder="Enter car model..." list="carModels">
+                        <datalist id="carModels">
+                            <option value="Corolla">
+                            <option value="Maybach">
+                            <option value="Demio">
+                            <!-- Add more options as needed -->
+                        </datalist>
+                    
+                        <input type="text" id="fuelConsumptionInput" class="form-control mb-2" placeholder="Enter fuel consumption..." list="fuelConsumptions">
+                        <datalist id="fuelConsumptions">
+                            <option value="25mpg">
+                            <option value="20mpg">
+                            <option value="30mpg">
+                            <!-- Add more options as needed -->
+                        </datalist>
+                    
+                        <input type="text" id="adaptabilityInput" class="form-control mb-2" placeholder="Enter adaptability to surroundings..." list="adaptabilities">
+                        <datalist id="adaptabilities">
+                            <option value="High">
+                            <option value="Possible">
+                            <option value="Uneconomical">
+                            <!-- Add more options as needed -->
+                        </datalist>
+                    
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                    
+                    <div id="carSearchResults">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Car-talogue. All rights reserved.</p>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
